@@ -1,3 +1,6 @@
+let assert = require('assert');
+let findItemsOver20 = require('../bootcamp-tests/findItemsOver20')
+
 describe("findItemsOver20", function(){
 
     it("The function should return all the products that have a quantity higher than 20", function(){

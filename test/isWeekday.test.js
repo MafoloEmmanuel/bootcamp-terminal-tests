@@ -1,3 +1,6 @@
+
+let assert = require('assert');
+let isWeekday = require('../bootcamp-tests/isWeekday')
 describe("isWeekDay function", function(){
 
     it('should return true for Monday because its a weekday', function(){

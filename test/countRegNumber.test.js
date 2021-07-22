@@ -1,3 +1,5 @@
+let assert = require('assert');
+let countRegNumber = require('../bootcamp-tests/countRegNumber')
 describe("countRegNumber function", function(){
 
     it("Should return a count of 2", function(){

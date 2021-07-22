@@ -1,3 +1,6 @@
+let assert = require('assert');
+let fromWhere = require('../bootcamp-tests/fromWhere')
+
 describe("fromWhere function", function(){
 
     it('It should return "Some other place!" for places outside town', function(){

@@ -1,3 +1,6 @@
+let assert = require('assert');
+let isFromBellville = require('../bootcamp-tests/isFromBellville')
+
 describe("isFromBellvile function", function(){
 
     it("Should return false for registration numbers that do not start with CY", function(){

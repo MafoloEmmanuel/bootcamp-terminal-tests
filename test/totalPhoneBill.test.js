@@ -1,3 +1,6 @@
+let assert = require('assert');
+let totalPhoneBill = require('../bootcamp-tests/totalPhoneBill')
+
 describe("totalPhoneBill function", function(){
 
     it("Should calculate the total bill of R7.45", function(){

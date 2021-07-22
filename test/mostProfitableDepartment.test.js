@@ -1,3 +1,6 @@
+let assert = require('assert');
+let mostProfitableDepartment = require('../bootcamp-tests/mostProfitableDepartment')
+
 describe("mostProfitableDepartment function", function(){
 
     it("Should show that the 'hardware' is the most profitable", function(){

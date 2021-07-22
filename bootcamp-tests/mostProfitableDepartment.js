@@ -1,4 +1,4 @@
-function mostProfitableDepartment(profitableDepartment){
+module.exports = function(profitableDepartment){
 	const departmentMap= {};
 for(var i=0;i<profitableDepartment.length;i++){
 const isDepartment= profitableDepartment[i];

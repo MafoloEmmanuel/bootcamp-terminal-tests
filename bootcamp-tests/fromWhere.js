@@ -1,4 +1,5 @@
-function fromWhere(regNum){
+
+module.exports = function(regNum){
 	if(regNum.startsWith('CY')){
     return 'Bellville';
     } else if(regNum.startsWith('CJ')){

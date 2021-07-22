@@ -1,4 +1,4 @@
-function countAllFromTown(regNum, regLoc){
+module.exports = function(regNum, regLoc){
     var fromTown = regNum.split(',');
     var countFromTown = 0;
   

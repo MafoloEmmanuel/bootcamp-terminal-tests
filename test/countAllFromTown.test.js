@@ -1,3 +1,6 @@
+let assert = require('assert');
+let countAllFromTown = require('../bootcamp-tests/countAllFromTown')
+
 describe("countAllFromTown function", function(){
 
     it("Should count 0 for CA, there's no registration number that starts with CA in the string ", function(){

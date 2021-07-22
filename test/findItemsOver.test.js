@@ -1,3 +1,6 @@
+let assert= require('assert');
+let findItemsOver = require('../bootcamp-tests/findItemsOver')
+
 describe("findItemsOver", function(){
 
     it("should return products that have quantity higher than the threshold", function(){

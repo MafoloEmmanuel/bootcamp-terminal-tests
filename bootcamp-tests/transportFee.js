@@ -1,4 +1,4 @@
-function transportFee(shift){
+module.exports = function(shift){
     if(shift === 'morning'){
         return ('R' + 20);
     } else if(shift === 'afternoon'){
@@ -9,7 +9,4 @@ function transportFee(shift){
       
     }
     
-    console.log(transportFee('afternoon'))
-    console.log(transportFee('afternoon'))
-    console.log(transportFee('nightshift'))
     

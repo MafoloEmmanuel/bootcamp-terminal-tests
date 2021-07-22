@@ -1,4 +1,4 @@
-function countAllPaarl(regNum){
+module.exports = function(regNum){
     var allPaarl=regNum.split(',');
      var isPaarl=[];
      var countPaarl=0
@@ -17,4 +17,4 @@ function countAllPaarl(regNum){
      
     return countPaarl;
    }
-   console.log(countAllPaarl('CJ 182736,CJ 523519, CD 188936'))
+   //console.log(countAllPaarl('CJ 182736,CJ 523519, CD 188936'))

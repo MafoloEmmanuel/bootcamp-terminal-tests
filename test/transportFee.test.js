@@ -1,3 +1,6 @@
+let assert = require('assert');
+let transportFee = require('../bootcamp-tests/transportFee')
+
 describe("transportFee function", function(){
 
     it("should give R10 for the afternoon shift", function(){

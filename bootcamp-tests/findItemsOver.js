@@ -1,4 +1,4 @@
-function findItemsOver(itemList, threshold){
+module.exports = function(itemList, threshold){
     //console.log(itemList);
     var arr2= [];
       for(var i=0;i<itemList.length;i++){

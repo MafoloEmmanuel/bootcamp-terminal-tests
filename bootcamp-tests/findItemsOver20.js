@@ -1,4 +1,4 @@
-function findItemsOver20(itemList){
+module.exports = function(itemList){
     var arr1=[]
       for(var i=0;i<itemList.length;i++){
       var item = itemList[i];

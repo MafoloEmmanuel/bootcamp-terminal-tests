@@ -1,4 +1,4 @@
-function totalPhoneBill(phoneBill){
+module.exports =function(phoneBill){
     var isPhoneBill = phoneBill.split(', ');
       
       var isTotalBill=0;

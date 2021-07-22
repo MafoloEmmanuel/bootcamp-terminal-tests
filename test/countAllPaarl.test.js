@@ -1,3 +1,6 @@
+let assert = require('assert');
+let countAllPaarl = require('../bootcamp-tests/countAllPaarl');
+
 describe("countAllPaarl function", function(){
 
     it("should count 2 for Paarl, registration numbers for Paarl starts with CJ", function(){
